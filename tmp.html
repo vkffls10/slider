@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>슬라이더 방법1</title>
+    <style>
+        .btn{cursor: pointer;}
+        .par-box{
+            width:100%;
+            height:500px;
+            overflow: hidden;
+            position:relative;
+        }
+        .box{
+            position:absolute;           
+            top:0;
+            bottom:0;
+            transition:0.3s;
+        }
+        .box01{
+            background-color: red;
+            left: 0%;
+            right:0%;
+        }
+        .box02{
+            background-color: green;
+            left: 100%;
+            right:-100%;
+        }
+        .box03{
+            background-color: blue;
+            left: 200%;
+            right:-200%;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="btn01 btn">1번보기</div>
+        <div class="btn02 btn">2번복4ㅣ</div>
+        <div class="btn03 btn">3번보기</div>
+    </nav>
+    <div class="par-box">
+        <div class="box box01">1</div>
+        <div class="box box02">2</div>
+        <div class="box box03">3</div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.btn01').click(function(){
+            $('.box01').css({
+               'left' :'0%',
+               'right' :'0%',
+            })
+            $('.box02').css({
+               'left' :'100%',
+               'right' :'-100%',
+            })
+            $('.box03').css({
+               'left' :'200%',
+               'right' :'-200%',
+            })
+        });
+        $('.btn02').click(function(){
+            $('.box01').css({
+               'left' :'-100%',
+               'right' :'100%',
+            })
+            $('.box02').css({
+               'left' :'0%',
+               'right' :'0%',
+            })
+            $('.box03').css({
+               'left' :'100%',
+               'right' :'-100%',
+            })
+        });
+        $('.btn03').click(function(){
+            $('.box01').css({
+               'left' :'-200%',
+               'right' :'200%',
+            })
+            $('.box02').css({
+               'left' :'-100%',
+               'right' :'100%',
+            })
+            $('.box03').css({
+               'left' :'0%',
+               'right' :'0%',
+            })
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+  jQuery 기반 플러그인	
+ https://jquerymodal.com/(모달창)
+ https://github.com/kswedberg/jquery-smooth-scroll(스무스 스크롤)
+ https://michalsnik.github.io/aos/(애니매이션 온 스크린)
+ https://alvarotrigo.com/fullPage/(풀페이지 섹셕단위 스크롤 플러그인)
+ https://bxslider.com/examples/image-slideshow-captions/(간단한 슬라이더)
+ http://git.blivesta.com/animsition/(css 애니매이션)
+ https://github.com/kottenator/jquery-circle-progress(원형 프로그래스)
+ https://github.com/alvarotrigo/multiscroll.js(상하 멀티스크롤)
+ https://github.com/nckprsn/scrollme(스크롤에 따른 간단한 아이템 반응)
+ https://github.com/thompsonemerson/zoomove(마우스를 이용한 이미지 확대축소)
+ 
+ javaScript 기반 플러그인
+ https://michalsnik.github.io/aos/(스크롤에 따른 아이템 애니매이션)
+ https://darkmodejs.learn.uno/(다크모드)
+ https://kingsora.github.io/OverlayScrollbars(스크롤바 변형)
+ https://ykob.github.io/fullscreen-slider/(풀스크린 슬라이더)
+ https://simpleparallax.com/(패럴랙스)
+ https://focusoverlay.js.org/(포터스 오버레이)
+ https://swiperjs.com/(스와이퍼 슬라이드)
+
+
+
+
